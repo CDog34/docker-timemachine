@@ -6,7 +6,7 @@ mkdir -p /conf.d/netatalk
 mkdir -p /afp-content/timemachine
 
 if [ ! -e /.initialized_afp ]; then
-    rm /etc/netatalk/afp.conf
+    # rm /etc/netatalk/afp.conf
 
     echo "[Global]
     mimic model = Xserve
